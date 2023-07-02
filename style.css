@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all .3s;
+}
+
+.input {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 30px solid rgb(25, 202, 199);
+    border-style: dotted;
+    outline: none;
+}
+
+h2 {
+    color: rgb(226, 11, 211);
+    text-shadow: .5px .5px 5px #fff;
+}
+
+input {
+    border: none;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(127, 193, 255, 0.616);
+    backdrop-filter: blur(11px);
+    color: #fff;
+    font-size: 1.5rem;
+    text-shadow: .5px .5px 5px rgb(10, 97, 112);
+    box-shadow: 1px 1px 5px rgb(17, 147, 162) inset;
+    margin: .5rem auto;
+    cursor: pointer;
+}
+
+input:focus{
+    outline: none;
+}
+
+button {
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 9px;
+    color: #fff;
+    background-color: rgba(53, 194, 194, 0.801);
+    text-shadow: .5px .5px 5px rgb(10, 97, 112);
+    box-shadow: 4px 4px 9px rgb(5, 112, 112);
+}
+
+button:focus{
+    outline: none;
+}
+
+
+p {
+    font-size: 3rem;
+    color: rgb(244, 202, 49);
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+
+input:hover {
+    text-shadow: none;
+    font-size: 1.6rem;
+    box-shadow: 1px 1px 9px #fff;
+    border: 1px solid;
+}
+
+#text {
+    color: #fff;
+}
